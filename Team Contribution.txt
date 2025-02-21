@@ -1,0 +1,42 @@
+Team Contribution
+
+Kartikeya Task: Data Collection and Preprocessing
+
+Karthikeya played a crucial role in ensuring the dataset was ready for analysis and feature extraction. 
+He gathered images from the dataset and meticulously preprocessed them. 
+His work included extracting RGB histograms to capture color distribution and Local Binary Patterns (LBP) to capture texture information from each image. 
+Both types of features were then normalized to ensure uniform scaling, which is essential for effective model training and evaluation.
+Additionally, Karthikeya ensured that the dataset was organized and formatted correctly to streamline its use in machine learning workflows. 
+This involved verifying data integrity, handling any missing or corrupted entries, and labeling the dataset appropriately. His efforts provided a clean, standardized dataset that served as the foundation for subsequent feature extraction, model training, and clustering.
+
+
+
+NagannaTask: Feature Extraction, Code Implementation, and Model Training
+
+Naganna was responsible for implementing and training multiple classification models, including KNN, Decision Trees, Random Forest, Logistic Regression, and Naive Bayes. 
+His work started with feature extraction, where he used both color histograms and LBP features generated during preprocessing to create input data for the classifiers.
+He also ensured the project was accessible and user-friendly by writing modular code with well-defined paths. 
+Naganna designed the codebase so that it could run seamlessly on any system, regardless of setup, by using a universal directory structure (./foldername). 
+This portability enabled easy replication and testing of the project on multiple devices.
+After implementing the models, Naganna evaluated their performance using metrics such as accuracy, precision, recall, and F1-score, comparing the strengths and weaknesses of each classifier.
+
+
+
+Sai krishna Task: Clustering Algorithms and Code Implementation
+
+Sai Krishna was in charge of implementing clustering algorithms, focusing on K-means and DBSCAN.
+He applied similar logic as Naganna for coding, ensuring that the clustering scripts were modular and portable. 
+By setting up paths with a ./foldername structure, Sai Krishna made sure the clustering code could be executed seamlessly on any laptop without requiring reconfiguration.
+To evaluate clustering quality, Sai Krishna used metrics like the Adjusted Rand Index (ARI), ensuring a thorough assessment of the models' ability to group data effectively.
+His work contributed to understanding the structure and patterns within the dataset, complementing the classification models.
+
+
+
+Bhargav Task: 
+
+Bhargav played a critical role in visualizing the project’s results and ensuring they were communicated effectively. 
+He designed detailed graphs and plots, including precision-recall curves, bar charts, and confusion matrices, to highlight model performance metrics like accuracy, precision, and recall. 
+His focus was not just on accuracy but also on making these visualizations intuitive and engaging for both technical and non-technical audiences.
+
+In addition to visualization, Bhargav collaborated closely with Sai Krishna to prepare the final report and presentation. 
+They worked together to create a cohesive narrative, ensuring the document flowed logically from problem statement to conclusions. The presentation was crafted with an emphasis on clarity, professionalism, and visual appeal, using concise points and engaging visuals to captivate the audience. Bhargav’s efforts in visualization and documentation were instrumental in effectively conveying the project’s key findings and outcomes.
